@@ -1,0 +1,262 @@
+(footprint "SC-74A-5_1.55x2.9mm_P0.95mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SC-74A, 5 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=41), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SC-74A SO")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "411c8687-1a93-4f4f-ae11-0410c258c83e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "74AHC1G32"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "6eedbfea-53ff-4911-82ad-bb7139062108")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be018d46-a133-4b92-a6aa-7de72a0020ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single OR Gate, Low-Voltage CMOS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67175613-3c15-4d76-89df-2c43a518368d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "SOT* SG-*")
+	(sheetname "Root")
+	(sheetfile "GC2SD_2.0.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -1.56)
+		(end -0.775 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0fea213-3e0c-4f1c-b480-63b41c2dd3bc")
+	)
+	(fp_line
+		(start 0 -1.56)
+		(end 0.775 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3d848a7-c519-43b4-acc2-67c832b16aa0")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end -0.775 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64428869-8815-4a47-9f1b-904913aa9c43")
+	)
+	(fp_line
+		(start 0 1.56)
+		(end 0.775 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "869ae28a-d3a2-4423-8fd7-8843bd4a2c01")
+	)
+	(fp_poly
+		(pts
+			(xy -1.3625 -1.51) (xy -1.6025 -1.84) (xy -1.1225 -1.84) (xy -1.3625 -1.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "736bcfff-ba5f-45ad-8610-1f27630764f2")
+	)
+	(fp_line
+		(start -2.2 -1.7)
+		(end -2.2 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c12f182-7e74-46a5-9cbd-8e598311fc61")
+	)
+	(fp_line
+		(start -2.2 1.7)
+		(end 2.2 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39304224-e3d9-4fa3-9a32-6bfc03631082")
+	)
+	(fp_line
+		(start 2.2 -1.7)
+		(end -2.2 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "264d15a2-90c0-4bc8-a77e-3b74ea87b967")
+	)
+	(fp_line
+		(start 2.2 1.7)
+		(end 2.2 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92d0f5be-bbea-43cd-85c3-60f507502c67")
+	)
+	(fp_line
+		(start -0.775 -1.0625)
+		(end -0.3875 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9523d12-ff68-4c66-ad83-34b1ca897d04")
+	)
+	(fp_line
+		(start -0.775 1.45)
+		(end -0.775 -1.0625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "743bd3a9-7e15-4bb6-9ea5-a4af8c2df6eb")
+	)
+	(fp_line
+		(start -0.3875 -1.45)
+		(end 0.775 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98455155-38a4-45a6-a4bb-5cd02b68c931")
+	)
+	(fp_line
+		(start 0.775 -1.45)
+		(end 0.775 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "398221bc-a919-41e5-b122-3cf281f19a21")
+	)
+	(fp_line
+		(start 0.775 1.45)
+		(end -0.775 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ba55f2a-7586-4819-a17b-7f2bf764a511")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "73904a49-aec8-4193-a21d-250e97f61b35")
+		(effects
+			(font
+				(size 0.39 0.39)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 -0.95)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "acbaef4d-0571-469a-95dc-19b7d28f31b6")
+	)
+	(pad "2" smd roundrect
+		(at -1.15 0)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7c0027c4-7d44-41d2-87de-5b60d944457b")
+	)
+	(pad "3" smd roundrect
+		(at -1.15 0.95)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "be57a96e-063d-4586-95d9-41a8c9c432c6")
+	)
+	(pad "4" smd roundrect
+		(at 1.15 0.95)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ac0c41b2-09c7-45d0-9906-19af2a3ef1c4")
+	)
+	(pad "5" smd roundrect
+		(at 1.15 -0.95)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "265283d9-f5b6-40ba-9c21-51e464795074")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/SC-74A-5_1.55x2.9mm_P0.95mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
